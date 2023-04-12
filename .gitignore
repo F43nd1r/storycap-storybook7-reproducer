@@ -1,0 +1,15 @@
+# IntelliJ
+.idea
+*.iml
+
+# Yarn https://next.yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Node
+node_modules

@@ -1,0 +1,28 @@
+{
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "storybook": "storybook dev -p 8081",
+    "storycap": "storycap --serverCmd \"yarn storybook\" --serverTimeout 100000 --outDir src/tests/__image_snapshots__/ http://localhost:8081"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.3",
+    "@storybook/preset-create-react-app": "^7.0.3",
+    "@storybook/react": "^7.0.3",
+    "@storybook/react-webpack5": "^7.0.3",
+    "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
+    "storybook": "^7.0.3",
+    "storycap": "^4.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@porsche-design-system/components-react": "^3.0.0-rc.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-refresh": "^0.14.0",
+    "react-scripts": "^5.0.1"
+  }
+}
